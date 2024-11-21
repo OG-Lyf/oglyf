@@ -3,19 +3,13 @@ import { Button, Heading } from "@medusajs/ui"
 
 const Hero = () => {
   return (
-    <div className="h-[75vh] bg-black text-white w-full border-b border-ui-border-base relative bg-ui-bg-subtle">
+    <div className="h-[75vh] bg-blue-200 w-full border-b border-ui-border-base relative bg-ui-bg-subtle">
       <div className="absolute inset-0 z-10 flex flex-col justify-center items-center text-center small:p-32 gap-6">
         <span>
-          <Heading
-            level="h1"
-            className="text-3xl leading-10 text-white font-normal"
-          >
+          <Heading level="h1" className="text-3xl leading-10 font-normal">
             Welcome to OGLyf.
           </Heading>
-          <Heading
-            level="h2"
-            className="text-3xl leading-10 text-white font-normal"
-          >
+          <Heading level="h2" className="text-3xl leading-10 font-normal">
             Stay tuned for our Brand launch
           </Heading>
         </span>
